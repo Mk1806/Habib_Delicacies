@@ -1,3 +1,9 @@
+*{
+    background:url(../images/lunch/background.jpeg) ;
+    margin: 0;
+    padding: 0;
+}
+
 #chapati-showing{
   display: none;
 }
@@ -30,7 +36,7 @@
   font-family: sans-serif;
 }
 .container{
-  background: url(../IMAGES/pictures/bg.jpeg);
+  background: url(../images/lunch/background.jpeg);
 }
 .card{
   margin-top: 20px;
