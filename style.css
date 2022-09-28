@@ -1,5 +1,5 @@
 body {
-    background-image: url(../IMAGES/back.jpg);
+    background-image: url(../images/random/card.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: scroll;
@@ -50,7 +50,7 @@ nav ul li:hover a {
 
 .footer a {
     padding-right: 1rem;
-    color: rgb(255, 0, 0);
+    color: black (255, 0, 0);
 }
 
 .footer:hover a {

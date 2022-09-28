@@ -4,7 +4,7 @@ html, body {
 }
 
 .randomPage {
-    background-image: url("../IMAGES/randomrecipe/recipebg.jpg");
+    background-image: url("../images/random/background.jpg");
     background-position: center center;
     background-size: cover;
 }
