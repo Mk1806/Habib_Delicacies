@@ -1,0 +1,74 @@
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.randomPage {
+    background-image: url("../IMAGES/randomrecipe/recipebg.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.recipeCardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 6.7rem; */
+}
+
+button {
+    margin-left: 12rem;
+    background: #795548 !important;
+    border: none !important;
+    /* position: fixed; */
+    padding: 1rem !important; 
+    font-size: 0.5rem;
+    font-weight: 600 !important;
+}
+
+#randomCard {
+    margin: 5.9rem 0;
+    width: 500px !important;
+}
+
+#randomImage {
+    height: 300px;
+    width: 498px;
+    border: 1px solid red;
+}
+
+#randomImage img {
+    height: 100%;
+    width: 100%;
+}
+
+span {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media only screen and (max-width :767px) {
+
+    .recipeCardContainer {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    button {
+        margin-left: 0rem;
+    }
+
+    #randomCard {
+       padding: 0 4rem;
+       margin: 1.2rem 0;
+       border: 1px solid #795548;
+    }
+
+    #randomImage {
+        width: 100vw !important;
+    }
+
+    
+    
+    
+}
