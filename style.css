@@ -1,0 +1,71 @@
+body {
+    background-image: url(../IMAGES/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+h2 {
+    color: rgb(172, 30, 30);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 60px;
+}
+
+span {
+    color: palevioletred;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: right;
+    gap: 1cm;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+nav ul li:hover a {
+    background: #724635;
+}
+
+.home {
+    font-size: larger;
+    font-family: 'Apple Chancery', cursive;
+    text-align: center;
+}
+
+.footer {
+    font-size: 50px;
+}
+
+.footer a {
+    padding-right: 1rem;
+    color: rgb(255, 0, 0);
+}
+
+.footer:hover a {
+    color: blue;
+}
+
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: maroon;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
